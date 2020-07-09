@@ -58,7 +58,7 @@ Archiver.Compress(source, destination);
 string source = @"C:\Users\LightBuzz\Desktop\Foo.zip";
 string destination = @"C:\Users\LightBuzz\Desktop\Foo\";
 
-Archiver.Compress(source, destination);
+Archiver.Decompress(source, destination);
 ```
     
 That's it!
